@@ -35,7 +35,14 @@ LANGUAGES = ["English", "Spanish", "French", "German", "Hindi"]
 
 def read_url_content(url):
     try:
-        response = requests.get(url)
+        # A browser User-Agent is needed because many sites (Wikipedia included)
+        # return 403 to the default python-requests agent.
+        response = requests.get(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                                   "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36"},
+            timeout=15,
+        )
         response.raise_for_status()  # Raise an exception for HTTP errors
         soup = BeautifulSoup(response.content, 'html.parser')
         return soup.get_text()
