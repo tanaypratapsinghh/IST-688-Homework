@@ -4,6 +4,7 @@ import requests
 import streamlit as st
 from bs4 import BeautifulSoup
 from google import genai
+from google.genai import errors as genai_errors
 from openai import OpenAI
 
 # ---------- Providers and models ----------
@@ -14,7 +15,7 @@ PROVIDERS = {
         "basic": "gpt-4.1-nano",
         "advanced": "gpt-4.1",
     },
-       "Google Gemini": {
+    "Google Gemini": {
         "secret": "GEMINI_API_KEY",
         "basic": "gemini-3.6-flash",
         "advanced": "gemini-3.6-pro",
@@ -129,5 +130,16 @@ if url:
 
         with st.spinner(f"Summarizing with {model}..."):
             start = time.time()
-            summarize(provider, model, api_key, prompt)
+            # Gemini returns 503 when the model is under high demand, so retry.
+            for attempt in range(3):
+                try:
+                    summarize(provider, model, api_key, prompt)
+                    break
+                except genai_errors.ServerError:
+                    if attempt == 2:
+                        st.error(
+                            "Gemini is busy right now (503). Wait a moment and try again."
+                        )
+                    else:
+                        time.sleep(2 * (attempt + 1))
         st.caption(f"{provider} / {model} — {time.time() - start:.1f}s")
