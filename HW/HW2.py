@@ -15,10 +15,10 @@ PROVIDERS = {
         "basic": "gpt-4.1-nano",
         "advanced": "gpt-4.1",
     },
-       "Google Gemini": {
+        "Google Gemini": {
         "secret": "GEMINI_API_KEY",
-        "basic": "gemini-3.6-flash",
-        "advanced": "gemini-pro-latest",
+        "basic": "gemini-flash-lite-latest",
+        "advanced": "gemini-3.8-flash",
     },
 }
 
