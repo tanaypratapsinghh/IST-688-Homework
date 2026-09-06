@@ -1,3 +1,6 @@
-streamlit
-openai
-pypdf
+    streamlit
+    openai
+    google-genai
+    pypdf
+    requests
+    beautifulsoup4
