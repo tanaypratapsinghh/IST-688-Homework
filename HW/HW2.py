@@ -58,7 +58,10 @@ def key_is_valid(provider: str, key: str) -> bool:
         if provider == "OpenAI":
             OpenAI(api_key=key).models.list()
         else:
-            list(genai.Client(api_key=key).models.list())
+            # Hold a reference to the client: models.list() returns a lazy pager,
+            # and a temporary client is closed before the pager is iterated.
+            client = genai.Client(api_key=key)
+            next(iter(client.models.list()), None)
         return True
     except Exception:
         return False
@@ -77,7 +80,13 @@ def summarize(provider: str, model: str, key: str, prompt: str):
     else:
         client = genai.Client(api_key=key)
         stream = client.models.generate_content_stream(model=model, contents=prompt)
-        st.write_stream(chunk.text for chunk in stream if chunk.text)
+
+        def chunks():
+            for chunk in stream:
+                if chunk.text:
+                    yield chunk.text
+
+        st.write_stream(chunks())
 
 
 st.title("HW 2: URL Summarizer")
