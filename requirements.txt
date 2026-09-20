@@ -1,6 +1,8 @@
-    streamlit
-    openai
-    google-genai
-    pypdf
-    requests
-    beautifulsoup4
+streamlit
+openai
+google-genai
+pypdf
+requests
+beautifulsoup4
+chromadb
+pysqlite3-binary
