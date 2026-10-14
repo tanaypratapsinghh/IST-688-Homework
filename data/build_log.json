@@ -1,0 +1,25 @@
+{
+  "raw_rows": 1290,
+  "articles": 1090,
+  "stories": 932,
+  "embedding_model": "text-embedding-3-small",
+  "embedding_seconds": 14.4,
+  "scorers": {
+    "low": {
+      "model": "gpt-4.1-nano",
+      "prompt_tokens": 95504,
+      "completion_tokens": 38916,
+      "calls": 55,
+      "seconds": 76.8,
+      "unscored": 0
+    },
+    "high": {
+      "model": "gpt-4.1",
+      "prompt_tokens": 143547,
+      "completion_tokens": 46814,
+      "calls": 84,
+      "seconds": 74.7,
+      "unscored": 0
+    }
+  }
+}

@@ -1,0 +1,41 @@
+label,company_name,title,url,why
+HIGH,Alphabet,Google Antitrust Ruling: Landmark Decision Challenges Big Tech Dominance,https://www.devdiscourse.com/article/technology/3043078-google-antitrust-ruling-landmark-decision-challenges-big-tech-dominance,Federal antitrust ruling against Google
+HIGH,Nvidia,Nvidia faces two DOJ antitrust probes over market dominance,https://www.theverge.com/2024/8/2/24211810/nvidia-doj-antitrust-probes-ai-market-dominance,Two DOJ antitrust investigations
+HIGH,Facebook,Facebook parent Meta settles Texas lawsuit for $1.4B,https://www.foxbusiness.com/politics/facebook-parent-meta-settles-texas-lawsuit-1-4b,$1.4B biometric privacy settlement
+HIGH,Coca-Cola,"Coca-Cola Owes $6 Billion to IRS, Tax Court Rules",https://www.wsj.com/business/coca-cola-owes-6-billion-to-irs-tax-court-rules-0105f2d6,"$6B IRS tax court loss, under appeal"
+HIGH,Nokia,Amazon sues Nokia for cloud computing patent infringement,https://www.datacenterdynamics.com/en/news/amazon-sues-nokia-for-cloud-computing-patent-infringement/,Patent infringement suit by Amazon
+HIGH,JPMorgan Chase,JPMorgan Chase Evaluates Legal Options as CFPB Scrutinizes Zelle Payments,https://www.pymnts.com/news/security-and-risk/2024/jpmorgan-chase-evaluates-legal-options-as-cfpb-scrutinizes-zelle-payments/,Possible litigation against the CFPB
+HIGH,Novartis,Novartis sues FDA over ‘unlawful’ approval of generic heart failure drug,https://cardiovascularbusiness.com/topics/healthcare-management/legal-news/novartis-sues-fda-over-unlawful-approval-generic-heart-failure-drug,Lawsuit against the FDA over a generic approval
+HIGH,DXC Technology,"DXC Technology Sued Over ‘Transformation Journey,’ Stock Drops",https://news.bloomberglaw.com/litigation/dxc-technology-sued-over-transformation-journey-stock-drops,Securities class action
+HIGH,Microsoft,"Microsoft confirms Azure, 365 outage linked to DDoS attack",https://www.cybersecuritydive.com/news/microsoft-azure-365-outage-ddos/722920/,Cyberattack causing a cloud outage
+HIGH,Alphabet,Google parent Alphabet's partnership with AI firm Anthropic under investigation in the UK,https://www.cnbc.com/2024/07/30/alphabet-partnership-with-ai-firm-anthropic-probed-by-uk-regulator.html,UK competition investigation
+HIGH,Hewlett Packard Enterprise,EU approves Hewlett Packard Enterprise's $14 bln Juniper deal,https://www.reuters.com/markets/deals/eu-approves-hewlett-packard-enterprises-14-bln-juniper-deal-2024-08-01/,"EU merger clearance, $14B"
+HIGH,KKR,Instructure to be acquired by KKR for $4.8B,https://www.highereddive.com/news/instructure-kkr-acquisition-ed-tech/723082/,$4.8B acquisition
+HIGH,Teradata,"IMMINENT TDC DEADLINE: Bronstein, Gewirtz & Grossman LLC Reminds Teradata Corporation Investors to Join the Class Action Lawsuit!",https://www.accesswire.com/878071/imminent-tdc-deadline-bronstein-gewirtz-grossman-llc-reminds-teradata-corporation-investors-to-join-the-class-action-lawsuit,Securities class action
+HIGH,STMicroelectronics,STM Investors Have Opportunity to Join STMicroelectronics N.V. Fraud Investigation with the Schall Law Firm,https://www.prnewswire.com/news-releases/stm-investors-have-opportunity-to-join-stmicroelectronics-nv-fraud-investigation-with-the-schall-law-firm-302213220.html,Investor fraud investigation
+HIGH,Apax Partners,Apax to take consultancy firm Thoughtworks private in $1.75 bln deal,https://www.reuters.com/markets/deals/apax-funds-take-thoughtworks-private-175-bln-deal-2024-08-05/,$1.75B take-private
+HIGH,"Clayton, Dubilier & Rice",R1 RCM to be Acquired by TowerBrook and CD&R for $8.9 Billion,https://www.globenewswire.com/news-release/2024/08/01/2922679/0/en/R1-RCM-to-be-Acquired-by-TowerBrook-and-CD-R-for-8-9-Billion.html,$8.9B take-private
+HIGH,Blackstone Inc.,Hipgnosis Shares Canceled Amid $1.6B Blackstone Deal OK,https://www.law360.com/articles/1863476/hipgnosis-shares-canceled-amid-1-6b-blackstone-deal-ok,$1.6B acquisition approved
+HIGH,PAI Partners,Commission clears the acquisition of HFO Group by PAI Partners,https://eulawlive.com/competition-corner/commission-clears-the-acquisition-of-hfo-group-by-pai-partners/,EU merger clearance
+HIGH,Intel,"Intel is laying off over 15,000 employees and will stop ‘non-essential work’",https://www.theverge.com/2024/8/1/24210656/intel-is-laying-off-over-10000-employees-and-will-cut-10-billion-in-costs,"Mass layoffs of 15,000 employees"
+HIGH,Samsung Electronics,Samsung Employees Return to Work After Strike Fails to Win Concessions,https://www.nytimes.com/2024/08/05/business/samsung-workers-end-strike.html,Labor strike
+NOISE,HP,How Much HP Does A Cam Upgrade Add To A 5.7 HEMI?,https://www.slashgear.com/1634628/5-7-hemi-cam-upgrade-horsepower/,Name collision: horsepower
+NOISE,HP,How Much HP Does A 1973 Pontiac Grand Prix Have & Is It Considered A Muscle Car?,https://www.slashgear.com/1635600/1973-pontiac-grand-prix-how-much-horsepower-have-considered-muscle-car/,Name collision: horsepower
+NOISE,HP,HP Coupon Codes in August 2024 | 20% OFF,https://www.tomshardware.com/coupons/hp.com,Consumer coupon
+NOISE,Canon,"If you’ve read the literary canon, you know how to think like a bourgeois white man",https://www.irishtimes.com/life-style/people/2024/08/03/if-youve-read-the-literary-canon-you-know-how-to-think-like-a-bourgeois-white-man/,Name collision
+NOISE,NEC,Beyond Van Gogh at Birmingham NEC - in pictures,https://www.birminghammail.co.uk/whats-on/arts-culture-news/gallery/beyond-van-gogh-birmingham-nec-29653999,Name collision: NEC venue
+NOISE,Santander,Orioles’ Slugger Predicted to Leave for $100 Million Deal,https://heavy.com/sports/mlb/baltimore-orioles/anthony-santander-predicted-leave-orioles/,Name collision: baseball player
+NOISE,VINCI,Get a Discount at the Da Vinci Science Center,https://www.lvhn.org/news/get-discount-da-vinci-science-center,Name collision
+NOISE,Walt Disney,How to plan a trip to Disney World in 2024,https://thepointsguy.com/disney/ultimate-guide-to-walt-disney-world-resort/,Consumer travel tips
+NOISE,Lenovo,"This Lenovo ThinkPad deal cuts the price by 68% — save $1,370",https://www.digitaltrends.com/computing/lenovo-thinkpad-l13-yoga-gen-3-2-in-1-laptop-deal-lenovo-august-2024/,Consumer deal
+NOISE,ASUS,"Asus ROG Ally X review: the best Windows handheld, if you can afford it",https://www.rockpapershotgun.com/asus-rog-ally-x-review,Product review
+NOISE,Acer,Need a cheap Chromebook for back to school? Try this $200 Acer deal,https://www.digitaltrends.com/computing/acer-chromebook-315-deal-best-buy-july-2024/,Consumer deal
+NOISE,Adobe,Save 15% on Photoshop for three months with this exclusive Adobe deal,https://www.techradar.com/pro/software-services/save-15-on-photoshop-for-three-months-with-this-exclusive-adobe-deal,Consumer deal
+NOISE,Apple,The rugged Apple Watch Ultra 2 has returned to its Prime Day low,https://www.theverge.com/2024/8/5/24214042/apple-watch-ultra-2-ocean-band-trail-alpine-loop-strap-deal-sale,Consumer deal
+NOISE,Mitsubishi,Cute Little Wagony Things: 1992 Mitsubishi Expo LRV vs 2005 Scion xB,https://www.theautopian.com/cute-little-wagony-things-1992-mitsubishi-expo-lrv-vs-2005-scion-xb/,Car enthusiast article
+NOISE,Broadcom,Broadcom Stock Buy Alert: The Hidden AI Gem With Dividend Potential,https://investorplace.com/market360/2024/08/broadcom-stock-buy-alert-the-hidden-ai-gem-with-dividend-potential/,Stock promotion
+NOISE,IBM,Steve Jobs's Iconic 'Middle Finger To IBM' Jacket Is Up For Sale; Expected To Fetch This Whopping Price,https://in.mashable.com/culture/79981/steve-jobss-iconic-middle-finger-to-ibm-jacket-is-up-for-sale-expected-to-fetch-this-whopping-price,Memorabilia auction
+NOISE,Mastercard,Bilt Mastercard Review: Why It’s Worth It,https://www.lendingtree.com/credit-cards/review/bilt/,Credit card review
+NOISE,Walmart,This cheap gaming keyboard and mouse combo is on sale for $30,https://www.digitaltrends.com/computing/raiku-r905-wireless-keyboard-and-mouse-combo-deal-walmart-august-2024/,Consumer deal
+NOISE,SONY,"Sony BRAVIA 3 Review (K-43S30, K-50S30, K-55S30, K-65S30, K-75S30, K-85S30)",https://www.rtings.com/tv/reviews/sony/bravia-3,Product review
+NOISE,Eni,Joey Barton denies sending malicious posts about pundit Eni Aluko,https://www.bbc.com/news/articles/c29dw74z3gno,Name collision: footballer Eni Aluko
